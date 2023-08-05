@@ -8,7 +8,3 @@ const amt = 15000;
 fmt `주문내역 : ${amt.toLocaleString()}원`;
 
 
-cancle(menuName){
-    const {price, taxfree} = MENU[menuName];
-    const vat = calcVat()
-}
